@@ -1,0 +1,405 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1504</width>
+    <height>752</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="locale">
+   <locale language="Korean" country="SouthKorea"/>
+  </property>
+  <widget class="QGroupBox" name="groupBox">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>1481</width>
+     <height>731</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>13</pointsize>
+    </font>
+   </property>
+   <property name="title">
+    <string>View</string>
+   </property>
+   <widget class="QWidget" name="widget_view_1" native="true">
+    <property name="geometry">
+     <rect>
+      <x>9</x>
+      <y>29</y>
+      <width>480</width>
+      <height>320</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QWidget" name="widget_view_2" native="true">
+    <property name="geometry">
+     <rect>
+      <x>500</x>
+      <y>30</y>
+      <width>480</width>
+      <height>320</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QWidget" name="widget_view_3" native="true">
+    <property name="geometry">
+     <rect>
+      <x>500</x>
+      <y>380</y>
+      <width>480</width>
+      <height>320</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lbl_tread">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>350</y>
+      <width>451</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>13</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lbl_defect">
+    <property name="geometry">
+     <rect>
+      <x>530</x>
+      <y>350</y>
+      <width>451</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>13</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lbl_dot">
+    <property name="geometry">
+     <rect>
+      <x>530</x>
+      <y>700</y>
+      <width>451</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>13</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lbl_caution">
+    <property name="geometry">
+     <rect>
+      <x>1250</x>
+      <y>40</y>
+      <width>211</width>
+      <height>301</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>50</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lbl_safe">
+    <property name="geometry">
+     <rect>
+      <x>1000</x>
+      <y>40</y>
+      <width>211</width>
+      <height>301</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>50</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lbl_wear">
+    <property name="geometry">
+     <rect>
+      <x>1020</x>
+      <y>350</y>
+      <width>441</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>13</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QWidget" name="widget_view_4" native="true">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>380</y>
+      <width>480</width>
+      <height>320</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lbl_sidewall">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>700</y>
+      <width>451</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>13</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_tread">
+    <property name="geometry">
+     <rect>
+      <x>990</x>
+      <y>670</y>
+      <width>231</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>20</pointsize>
+     </font>
+    </property>
+    <property name="locale">
+     <locale language="Korean" country="SouthKorea"/>
+    </property>
+    <property name="text">
+     <string>트레드사진</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_sidewall">
+    <property name="geometry">
+     <rect>
+      <x>1240</x>
+      <y>670</y>
+      <width>231</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>20</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>사이드월사진</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_reset">
+    <property name="geometry">
+     <rect>
+      <x>1350</x>
+      <y>610</y>
+      <width>121</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>20</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>초기화</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lbl_arrow_1">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>350</y>
+      <width>16</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>13</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>▲</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lbl_arrow_2">
+    <property name="geometry">
+     <rect>
+      <x>510</x>
+      <y>350</y>
+      <width>16</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>13</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>▲</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lbl_arrow_3">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>700</y>
+      <width>16</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>13</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>▲</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lbl_arrow_4">
+    <property name="geometry">
+     <rect>
+      <x>510</x>
+      <y>700</y>
+      <width>16</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>13</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>▲</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lbl_arrow_5">
+    <property name="geometry">
+     <rect>
+      <x>1000</x>
+      <y>350</y>
+      <width>16</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>13</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>▲</string>
+    </property>
+   </widget>
+   <widget class="QWidget" name="widget_view_5" native="true">
+    <property name="geometry">
+     <rect>
+      <x>990</x>
+      <y>380</y>
+      <width>480</width>
+      <height>191</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lbl_text">
+    <property name="geometry">
+     <rect>
+      <x>1020</x>
+      <y>570</y>
+      <width>451</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>13</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lbl_arrow_6">
+    <property name="geometry">
+     <rect>
+      <x>1000</x>
+      <y>570</y>
+      <width>16</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>13</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>▲</string>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
